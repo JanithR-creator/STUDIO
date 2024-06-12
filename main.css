@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+*{
+    font-family: "Gilda Display", serif;
+}
+/*header area*/
+.navbar-brand img{
+    height: 50px;
+}
+/*header area*/
