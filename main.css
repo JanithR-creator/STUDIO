@@ -1,31 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
-html, body {
-    scroll-behavior: smooth!important;
+.outer {
+    border: 1px solid red;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-*{
+html, body {
+    scroll-behavior: smooth !important;
+}
+
+* {
     font-family: "Gilda Display", serif;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 10px;
 }
 
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
     width: 10px;
     background-color: #dff9fb;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     width: 10px;
-    background-color: rgb(255,97,34);
+    background-color: rgb(255, 97, 34);
 }
 
-.back-to-top-outer{
+.back-to-top-outer {
     width: 50px;
     height: 50px;
-    background-color: rgb(255,97,34);
+    background-color: rgb(255, 97, 34);
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -36,7 +45,7 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
 }
 
-.back-to-top-outer a{
+.back-to-top-outer a {
     width: 50px;
     height: 50px;
     display: inherit;
@@ -45,46 +54,113 @@ body::-webkit-scrollbar-thumb{
     text-decoration: none;
 }
 
-.fa-solid{
+.fa-solid {
     font-size: 20px;
     color: white;
 }
 
 /*header area*/
-.header-outer{
+.header-outer {
     position: sticky;
     top: 0;
 }
-.nav-item a{
+
+.nav-item a {
     color: black;
     font-weight: bold;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     text-decoration: none;
-    background-color: rgb(255,97,34);
+    background-color: rgb(255, 97, 34);
 
     border-radius: 5px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     height: 50px;
 }
+
 /*header area*/
 
-.outer{
-    width: 100%;
-    height: 400px;
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /*home area*/
-.home-outer{
+.home-outer {
     width: 100%;
     height: 90vh;
-    background-image: url("https://img.freepik.com/free-photo/wood-desk-with-laptop-lamp_23-2148267484.jpg?t=st=1718216053~exp=1718219653~hmac=8051300ffe66f67046f73427d903bae20b5ee64735f2f8fc934897cc183f8bad&w=740");
+    background-image: url("https://img.freepik.com/free-photo/online-school-equipment-home_23-2149041143.jpg?t=st=1718257459~exp=1718261059~hmac=5f159eb4070e1442b2054d85489177734a47696587501530974db60cafddc368&w=740");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.home-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-header-5 {
+    color: white;
+}
+
+.home-header-1 {
+    color: white;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.home-widget-outer{
+    margin-top: -120px;
+}
+
+.widget-outer{
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.widget-inner{
+    border: 1px solid #576574;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-inner-top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-inner-bottom{
+    flex: 1;
+}
+
+.widget-icon{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(255,97,34);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-icon svg{
+    width: 80%;
+    height: 80%;
+}
+
+.widget-header{
+    text-align: center;
+}
+
+.widget-description{
+    text-align: center;
+}
+
 /*home area*/
