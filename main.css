@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 .outer {
     border: 1px solid red;
@@ -14,7 +14,7 @@ html, body {
 }
 
 * {
-    font-family: "Gilda Display", serif;
+    font-family: "Play", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -164,3 +164,94 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*home area*/
+
+/*service area*/
+
+.service-outer{
+    min-height: 750px;
+    width: 100%;
+    background-image: url("https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.service-container{
+    min-height: 750px;
+}
+
+.row{
+    height: 100%;
+}
+
+.service-container-inner{
+    height: 100%;
+}
+
+.service-right-side{
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+.right-top{
+    background-color: white;
+    height: 350px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-top:last-child{
+    margin-bottom: 0;
+}
+
+.service-top-title{
+    color: rgb(255,97,34);
+}
+
+.service-top-desc{
+    margin-top: 20px;
+}
+
+.service-grid-outer{
+    width: 100%;
+    height: auto;
+}
+
+.service-grid-inner{
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-1{
+    background-image: url("https://images01.nicepage.com/2c/36/2c363cea606f515e74b1e427f2b437c0.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-3{
+    background-image: url("https://images01.nicepage.com/9b/3f/9b3fb50d7f1060045a2fb67bc06f4802.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.link , .service-grid-title{
+    color: rgb(255,97,34);
+}
+.service-grid-header{
+    color: white;
+}
+.desc-service-grid{
+    color: #bdc3c7;
+}
+/*service area*/
+
+/*product area*/
+
+/*product area*/
