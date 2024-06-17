@@ -252,7 +252,102 @@ body::-webkit-scrollbar-thumb {
 /*service area*/
 
 /*product area*/
+.product-outer{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
 
+.product-title{
+    color: rgb(255,97,34);
+    text-align: center;
+}
+
+.product-header{
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-wrapper{
+    margin-bottom: 15px;
+}
+
+.product-inner{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-1{
+    background-image: url("https://images01.nicepage.com/7e/45/7e4509294d9c93994b4554a2eb024256.jpeg");
+}
+
+.product-2{
+    background-image: url("https://images01.nicepage.com/62/b4/62b459d50d19ef79cf384bb9382eaac0.jpeg");
+}
+
+.product-3{
+    background-image: url("https://images01.nicepage.com/c4/bd/c4bdad4b17efd19ce10ea44a0037b0f3.jpeg");
+}
+
+.product-4{
+    background-image: url("https://images01.nicepage.com/0a/45/0a45e2ac7da4d055b593212a1504c67d.jpeg");
+}
+
+.product-5{
+    background-image: url("https://images01.nicepage.com/db/24/db242e891a1c4503418a1493f6195fa0.jpeg");
+}
+
+.product-6{
+    background-image: url("https://images01.nicepage.com/2e/d7/2ed765c31dde5b370a7b118c60af0ebe.jpeg");
+}
+
+.product-7{
+    background-image: url("https://images01.nicepage.com/8b/1f/8b1f3212bc72535668c846f921cca0d4.jpeg");
+}
+
+.product-8{
+    background-image: url("https://images01.nicepage.com/a0/35/a035e0bec8f11f492002184ca6e6ac82.jpeg");
+}
+
+.product-bottom{
+    width: 100%;
+    height: 400px;
+
+}
+
+.product-bottom-left ol{
+    margin: 0;
+    padding: 15px;
+}
+
+.product-bottom-left li{
+    font-style: italic;
+}
+
+.product-bottom-left, .product-bottom-right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Feature-title{
+    color: rgb(255,97,34);
+}
+
+.feature-header{
+    font-weight: bold;
+}
+
+.product-bottom-right-inner{
+    height: 300px;
+    background-image: url("https://images01.nicepage.com/e9/ef/e9ef3d8ce1c247c217f1f02fa46cfd1a.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /*product area*/
 
 /*solution area*/
