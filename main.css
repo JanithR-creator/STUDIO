@@ -478,3 +478,34 @@ body::-webkit-scrollbar-thumb {
     color: #535c68;
 }
 /*contact area*/
+
+/*footer area*/
+.footer{
+    background-color: #333;
+    width: 100%;
+    padding: 50px 0
+}
+
+.footer-content{
+    height: 200px;
+}
+
+.footer-title, .footer-header{
+    text-align: center;
+    color: white;
+}
+
+.copyright-desc{
+    color: white;
+    text-align: center;
+}
+
+.copyright-desc a{
+    text-decoration: none;
+    color: rgb(255,97,34);
+}
+
+.copyright-desc a:hover{
+    text-decoration: underline;
+}
+/*footer area*/
