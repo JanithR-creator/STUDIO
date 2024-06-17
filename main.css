@@ -17,6 +17,16 @@ html, body {
     font-family: "Play", sans-serif;
 }
 
+.nav-badge a{
+    color: rgb(255,97,34) !important;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.nav-badge a:hover{
+    text-decoration:underline;
+}
+
 body::-webkit-scrollbar {
     width: 10px;
 }
@@ -73,7 +83,6 @@ body::-webkit-scrollbar-thumb {
 .nav-item a:hover {
     text-decoration: none;
     background-color: rgb(255, 97, 34);
-
     border-radius: 5px;
 }
 
